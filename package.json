@@ -1,0 +1,27 @@
+{
+  "name": "gpt-side-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemontech119/gpt-side-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^5.8.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "bugs": {
+    "url": "https://github.com/lemontech119/gpt-side-project/issues"
+  },
+  "homepage": "https://github.com/lemontech119/gpt-side-project#readme"
+}
