@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "saju": "node -r dotenv/config node_modules/.bin/ts-node src/saju.ts"
   },
   "repository": {
     "type": "git",
@@ -13,8 +14,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "csv-parser": "^3.2.0",
     "dotenv": "^16.3.1",
-    "openai": "^5.8.3"
+    "openai": "^5.8.3",
+    "puppeteer": "^24.22.2"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",

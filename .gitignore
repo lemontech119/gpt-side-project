@@ -1,2 +1,4 @@
+src/csv
+src/pdf
 .env
 node_modules
